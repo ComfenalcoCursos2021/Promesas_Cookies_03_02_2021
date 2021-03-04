@@ -9,7 +9,7 @@ window.onload = function(){
         return new Promise((resolve,reject)=>{
             const frame = document.createDocumentFragment();
             
-            for (let i = 0; i < 10000; i++) {
+            for (let i = 0; i < 100000; i++) {
                 const nodo = document.createElement("li");
                 const data = document.createTextNode(i);
                 nodo.appendChild(data);
